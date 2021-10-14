@@ -8,7 +8,7 @@ class ViewController: UIViewController {
     private let sections: [Section] = [
         ("テスト", [
             ("テスト", { this in
-                print(Int.random(in: 0...10))
+                print(UIColor(rgb: 0x1234FF).rgbString)
             }),
         ]),
     ]
