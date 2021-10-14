@@ -8,9 +8,9 @@ class ViewController: UIViewController {
     private let sections: [Section] = [
         ("テスト", [
             ("テスト", { this in
-                let ver = Version("1.0.1")
+                let file = File.documentDirectory + "test.txt"
                 
-                print((ver < Version.bundleShortVersion))
+                print(file.path)
             }),
         ]),
     ]
