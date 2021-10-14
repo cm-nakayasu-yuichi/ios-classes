@@ -8,9 +8,7 @@ class ViewController: UIViewController {
     private let sections: [Section] = [
         ("テスト", [
             ("テスト", { this in
-                let file = File.documentDirectory + "test.txt"
-                
-                print(file.path)
+                print(Int.random(in: 0...10))
             }),
         ]),
     ]
