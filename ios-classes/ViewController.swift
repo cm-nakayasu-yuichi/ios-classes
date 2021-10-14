@@ -8,7 +8,7 @@ class ViewController: UIViewController {
     private let sections: [Section] = [
         ("テスト", [
             ("テスト", { this in
-                print(1)
+                print(String.typeOf(this))
             }),
         ]),
     ]
