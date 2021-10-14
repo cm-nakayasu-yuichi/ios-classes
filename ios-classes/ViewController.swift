@@ -8,7 +8,9 @@ class ViewController: UIViewController {
     private let sections: [Section] = [
         ("テスト", [
             ("テスト", { this in
-                print(String.typeOf(this))
+                let ver = Version("1.0.1")
+                
+                print((ver < Version.bundleShortVersion))
             }),
         ]),
     ]
