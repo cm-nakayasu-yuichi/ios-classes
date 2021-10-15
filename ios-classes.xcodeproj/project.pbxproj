@@ -20,6 +20,7 @@
 		E46B31CB27183A81002FD3EC /* Number+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B31CA27183A81002FD3EC /* Number+Extension.swift */; };
 		E46B31CD27183CA1002FD3EC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B31CC27183CA1002FD3EC /* UIColor+Extension.swift */; };
 		E46B31CF27193AD3002FD3EC /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B31CE27193AD2002FD3EC /* Array+Extension.swift */; };
+		E46B31D1271954E1002FD3EC /* CoreGraphics+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B31D0271954E1002FD3EC /* CoreGraphics+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		E46B31CA27183A81002FD3EC /* Number+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Number+Extension.swift"; sourceTree = "<group>"; };
 		E46B31CC27183CA1002FD3EC /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		E46B31CE27193AD2002FD3EC /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		E46B31D0271954E1002FD3EC /* CoreGraphics+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreGraphics+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				E46B31C4271812D3002FD3EC /* String+Extension.swift */,
 				E46B31CA27183A81002FD3EC /* Number+Extension.swift */,
 				E46B31CE27193AD2002FD3EC /* Array+Extension.swift */,
+				E46B31D0271954E1002FD3EC /* CoreGraphics+Extension.swift */,
 				E46B31CC27183CA1002FD3EC /* UIColor+Extension.swift */,
 				E46B31C627181907002FD3EC /* Version.swift */,
 				E46B31C827181D54002FD3EC /* File.swift */,
@@ -287,6 +290,7 @@
 				E46B31C5271812D3002FD3EC /* String+Extension.swift in Sources */,
 				E43EC91A27180BFA00A12393 /* ViewController.swift in Sources */,
 				E46B31C727181907002FD3EC /* Version.swift in Sources */,
+				E46B31D1271954E1002FD3EC /* CoreGraphics+Extension.swift in Sources */,
 				E43EC91627180BFA00A12393 /* AppDelegate.swift in Sources */,
 				E46B31CF27193AD3002FD3EC /* Array+Extension.swift in Sources */,
 			);
