@@ -1,5 +1,45 @@
 import Foundation
 
+// MARK: - 部分取得
+extension String {
+    
+    /// 部分取得
+    /// - Parameters:
+    ///   - from: 取得開始地点インデックス
+    ///   - length: 文字列長
+    /// - Returns: 部分取得した文字列
+    func substring(from: Int, length: Int) -> String {
+        if from < 0 || length < 0 { return "" }
+        let fromIndex = index(startIndex, offsetBy: from, limitedBy: endIndex) ?? endIndex
+        let toIndex = index(startIndex, offsetBy: from + length, limitedBy: endIndex) ?? endIndex
+        return String(self[fromIndex..<toIndex])
+    }
+    
+    subscript(_ index: Int) -> String {
+        return substring(from: index, length: 1)
+    }
+    
+    subscript(from: Int, length: Int) -> String {
+        return substring(from: from, length: length)
+    }
+}
+
+// MARK: - 空文字列対応
+extension String {
+    
+    /// 空文字列の場合にnilを返す
+    var emptyToNil: String? {
+        return isEmpty ? nil : self
+    }
+    
+    /// 空文字列の場合に代替文字を返す
+    /// - Parameter substitute: 代替文字
+    /// - Returns: 空文字列の場合は代替文字を返す
+    func empty(to substitute: String) -> String {
+        return isEmpty ? substitute : self
+    }
+}
+
 // MARK: - 文字列置換
 extension String {
     
