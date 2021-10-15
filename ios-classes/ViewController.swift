@@ -8,7 +8,7 @@ class ViewController: UIViewController {
     private let sections: [Section] = [
         ("テスト", [
             ("テスト", { this in
-                print(UIColor(rgb: 0x1234FF).rgbString)
+                print("123".padding(length: 5))
             }),
         ]),
     ]
