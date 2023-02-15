@@ -20,6 +20,8 @@
 		E40F56E4299CD32C00578EC1 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56E3299CD32C00578EC1 /* Version.swift */; };
 		E40F56E6299CDE2000578EC1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56E5299CDE2000578EC1 /* File.swift */; };
 		E40F56E8299CDEC300578EC1 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56E7299CDEC300578EC1 /* Date+Extensions.swift */; };
+		E40F56EA299CE42F00578EC1 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56E9299CE42F00578EC1 /* UIViewController+Extensions.swift */; };
+		E40F56EC299CE4DF00578EC1 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56EB299CE4DF00578EC1 /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		E40F56E3299CD32C00578EC1 /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
 		E40F56E5299CDE2000578EC1 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		E40F56E7299CDEC300578EC1 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		E40F56E9299CE42F00578EC1 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		E40F56EB299CE4DF00578EC1 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 			children = (
 				E40F56CF299CBD5700578EC1 /* AppDelegate.swift */,
 				E40F56E0299CD0FD00578EC1 /* AppConfigure.swift */,
+				E40F56EB299CE4DF00578EC1 /* NavigationController.swift */,
 			);
 			path = Applications;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			children = (
 				E40F56DB299CC51900578EC1 /* AppDelegate+Extensions.swift */,
 				E40F56E7299CDEC300578EC1 /* Date+Extensions.swift */,
+				E40F56E9299CE42F00578EC1 /* UIViewController+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -224,8 +230,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E40F56EC299CE4DF00578EC1 /* NavigationController.swift in Sources */,
 				E40F56D9299CC00C00578EC1 /* BootstrapViewController.swift in Sources */,
 				E40F56D2299CBD5700578EC1 /* AppDelegate.swift in Sources */,
+				E40F56EA299CE42F00578EC1 /* UIViewController+Extensions.swift in Sources */,
 				E40F56E8299CDEC300578EC1 /* Date+Extensions.swift in Sources */,
 				E40F56E1299CD0FD00578EC1 /* AppConfigure.swift in Sources */,
 				E40F56DC299CC51900578EC1 /* AppDelegate+Extensions.swift in Sources */,
