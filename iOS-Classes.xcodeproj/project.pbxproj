@@ -17,6 +17,7 @@
 		E40F56DC299CC51900578EC1 /* AppDelegate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56DB299CC51900578EC1 /* AppDelegate+Extensions.swift */; };
 		E40F56DF299CD0D500578EC1 /* Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56DE299CD0D500578EC1 /* Configure.swift */; };
 		E40F56E1299CD0FD00578EC1 /* AppConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56E0299CD0FD00578EC1 /* AppConfigure.swift */; };
+		E40F56E4299CD32C00578EC1 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56E3299CD32C00578EC1 /* Version.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E40F56DB299CC51900578EC1 /* AppDelegate+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Extensions.swift"; sourceTree = "<group>"; };
 		E40F56DE299CD0D500578EC1 /* Configure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configure.swift; sourceTree = "<group>"; };
 		E40F56E0299CD0FD00578EC1 /* AppConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfigure.swift; sourceTree = "<group>"; };
+		E40F56E3299CD32C00578EC1 /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				E40F56CE299CBD5700578EC1 /* Applications */,
 				E40F56DA299CC51900578EC1 /* Extensions */,
+				E40F56E2299CD32C00578EC1 /* Entities */,
 				E40F56DD299CD0D500578EC1 /* Utilities */,
 				E40F56CC299CBD5700578EC1 /* ViewControllers */,
 			);
@@ -133,6 +136,14 @@
 				E40F56DE299CD0D500578EC1 /* Configure.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E40F56E2299CD32C00578EC1 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E40F56E3299CD32C00578EC1 /* Version.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +222,7 @@
 				E40F56D2299CBD5700578EC1 /* AppDelegate.swift in Sources */,
 				E40F56E1299CD0FD00578EC1 /* AppConfigure.swift in Sources */,
 				E40F56DC299CC51900578EC1 /* AppDelegate+Extensions.swift in Sources */,
+				E40F56E4299CD32C00578EC1 /* Version.swift in Sources */,
 				E40F56D5299CBDB200578EC1 /* LaunchViewController.swift in Sources */,
 				E40F56DF299CD0D500578EC1 /* Configure.swift in Sources */,
 			);
