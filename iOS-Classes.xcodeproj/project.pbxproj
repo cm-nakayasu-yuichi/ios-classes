@@ -18,6 +18,7 @@
 		E40F56DF299CD0D500578EC1 /* Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56DE299CD0D500578EC1 /* Configure.swift */; };
 		E40F56E1299CD0FD00578EC1 /* AppConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56E0299CD0FD00578EC1 /* AppConfigure.swift */; };
 		E40F56E4299CD32C00578EC1 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56E3299CD32C00578EC1 /* Version.swift */; };
+		E40F56E6299CDE2000578EC1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56E5299CDE2000578EC1 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E40F56DE299CD0D500578EC1 /* Configure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configure.swift; sourceTree = "<group>"; };
 		E40F56E0299CD0FD00578EC1 /* AppConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfigure.swift; sourceTree = "<group>"; };
 		E40F56E3299CD32C00578EC1 /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		E40F56E5299CDE2000578EC1 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		E40F56E2299CD32C00578EC1 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				E40F56E5299CDE2000578EC1 /* File.swift */,
 				E40F56E3299CD32C00578EC1 /* Version.swift */,
 			);
 			path = Entities;
@@ -223,6 +226,7 @@
 				E40F56E1299CD0FD00578EC1 /* AppConfigure.swift in Sources */,
 				E40F56DC299CC51900578EC1 /* AppDelegate+Extensions.swift in Sources */,
 				E40F56E4299CD32C00578EC1 /* Version.swift in Sources */,
+				E40F56E6299CDE2000578EC1 /* File.swift in Sources */,
 				E40F56D5299CBDB200578EC1 /* LaunchViewController.swift in Sources */,
 				E40F56DF299CD0D500578EC1 /* Configure.swift in Sources */,
 			);
