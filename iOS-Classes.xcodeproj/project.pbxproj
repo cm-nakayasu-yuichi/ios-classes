@@ -14,6 +14,7 @@
 		E40F56D5299CBDB200578EC1 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56D4299CBDB200578EC1 /* LaunchViewController.swift */; };
 		E40F56D7299CBDC800578EC1 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40F56D6299CBDC800578EC1 /* Launch.storyboard */; };
 		E40F56D9299CC00C00578EC1 /* BootstrapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56D8299CC00C00578EC1 /* BootstrapViewController.swift */; };
+		E40F56DC299CC51900578EC1 /* AppDelegate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56DB299CC51900578EC1 /* AppDelegate+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E40F56D4299CBDB200578EC1 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		E40F56D6299CBDC800578EC1 /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		E40F56D8299CC00C00578EC1 /* BootstrapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootstrapViewController.swift; sourceTree = "<group>"; };
+		E40F56DB299CC51900578EC1 /* AppDelegate+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				E40F56CE299CBD5700578EC1 /* Applications */,
+				E40F56DA299CC51900578EC1 /* Extensions */,
 				E40F56CC299CBD5700578EC1 /* ViewControllers */,
 			);
 			path = Sources;
@@ -108,6 +111,14 @@
 				E40F56D6299CBDC800578EC1 /* Launch.storyboard */,
 			);
 			path = Launch;
+			sourceTree = "<group>";
+		};
+		E40F56DA299CC51900578EC1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E40F56DB299CC51900578EC1 /* AppDelegate+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 			files = (
 				E40F56D9299CC00C00578EC1 /* BootstrapViewController.swift in Sources */,
 				E40F56D2299CBD5700578EC1 /* AppDelegate.swift in Sources */,
+				E40F56DC299CC51900578EC1 /* AppDelegate+Extensions.swift in Sources */,
 				E40F56D5299CBDB200578EC1 /* LaunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
