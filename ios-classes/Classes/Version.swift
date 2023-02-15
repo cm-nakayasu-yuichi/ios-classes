@@ -1,7 +1,5 @@
 import Foundation
 
-import Foundation
-
 struct Version {
     
     let versionNumber: String

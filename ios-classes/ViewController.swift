@@ -8,8 +8,7 @@ class ViewController: UIViewController {
     private let sections: [Section] = [
         ("テスト", [
             ("テスト", { this in
-                
-                print(23.f.percentage(of: 100).percentageText(place: 2))
+                print(1)
             }),
         ]),
     ]

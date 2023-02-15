@@ -10,6 +10,13 @@ extension Array {
         return nil
     }
     
+    /// 指定した要素数の空配列を生成して返す
+    /// - Parameter count: 要素数
+    /// - Returns: 指定した要素数の空配列
+    static func empty(count: Int) -> [Element?] {
+        return (0..<count).map { _ -> Element? in return nil }
+    }
+    
     /// 別の配列を追加する
     /// - Parameter newElements: 追加する配列
     mutating func append(_ newElements: [Element]) {

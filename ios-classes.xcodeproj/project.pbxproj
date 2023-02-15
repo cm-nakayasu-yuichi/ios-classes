@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E40DD8EA2726E614000C5ECF /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD8E92726E614000C5ECF /* UIImage+Extension.swift */; };
+		E40DD8EC2726E909000C5ECF /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD8EB2726E909000C5ECF /* Configuration.swift */; };
 		E43EC91627180BFA00A12393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43EC91527180BFA00A12393 /* AppDelegate.swift */; };
 		E43EC91A27180BFA00A12393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43EC91927180BFA00A12393 /* ViewController.swift */; };
 		E43EC91D27180BFA00A12393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43EC91B27180BFA00A12393 /* Main.storyboard */; };
@@ -22,6 +24,10 @@
 		E46B31CF27193AD3002FD3EC /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B31CE27193AD2002FD3EC /* Array+Extension.swift */; };
 		E46B31D1271954E1002FD3EC /* CoreGraphics+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B31D0271954E1002FD3EC /* CoreGraphics+Extension.swift */; };
 		E46B31D327195AAC002FD3EC /* NotificationCenter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B31D227195AAC002FD3EC /* NotificationCenter+Extension.swift */; };
+		E471DF392727CCEE00C311DD /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471DF382727CCEE00C311DD /* Date+Extension.swift */; };
+		E4E894792726E025005AB869 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E894782726E025005AB869 /* UITextField+Extension.swift */; };
+		E4E8947B2726E0C6005AB869 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8947A2726E0C6005AB869 /* UITextView+Extension.swift */; };
+		E4E8947D2726E30F005AB869 /* UIEdgeInsets+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8947C2726E30F005AB869 /* UIEdgeInsets+App.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E40DD8E92726E614000C5ECF /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		E40DD8EB2726E909000C5ECF /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		E43EC91227180BFA00A12393 /* ios-classes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-classes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43EC91527180BFA00A12393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E43EC91927180BFA00A12393 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +71,10 @@
 		E46B31CE27193AD2002FD3EC /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		E46B31D0271954E1002FD3EC /* CoreGraphics+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreGraphics+Extension.swift"; sourceTree = "<group>"; };
 		E46B31D227195AAC002FD3EC /* NotificationCenter+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+Extension.swift"; sourceTree = "<group>"; };
+		E471DF382727CCEE00C311DD /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		E4E894782726E025005AB869 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		E4E8947A2726E0C6005AB869 /* UITextView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
+		E4E8947C2726E30F005AB869 /* UIEdgeInsets+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+App.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,11 +160,17 @@
 				E46B31C4271812D3002FD3EC /* String+Extension.swift */,
 				E46B31CA27183A81002FD3EC /* Number+Extension.swift */,
 				E46B31CE27193AD2002FD3EC /* Array+Extension.swift */,
+				E471DF382727CCEE00C311DD /* Date+Extension.swift */,
 				E46B31D0271954E1002FD3EC /* CoreGraphics+Extension.swift */,
+				E40DD8E92726E614000C5ECF /* UIImage+Extension.swift */,
 				E46B31CC27183CA1002FD3EC /* UIColor+Extension.swift */,
+				E4E8947C2726E30F005AB869 /* UIEdgeInsets+App.swift */,
+				E4E894782726E025005AB869 /* UITextField+Extension.swift */,
+				E4E8947A2726E0C6005AB869 /* UITextView+Extension.swift */,
 				E46B31D227195AAC002FD3EC /* NotificationCenter+Extension.swift */,
 				E46B31C627181907002FD3EC /* Version.swift */,
 				E46B31C827181D54002FD3EC /* File.swift */,
+				E40DD8EB2726E909000C5ECF /* Configuration.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -287,16 +305,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E40DD8EC2726E909000C5ECF /* Configuration.swift in Sources */,
 				E46B31CD27183CA1002FD3EC /* UIColor+Extension.swift in Sources */,
+				E40DD8EA2726E614000C5ECF /* UIImage+Extension.swift in Sources */,
 				E46B31CB27183A81002FD3EC /* Number+Extension.swift in Sources */,
 				E46B31C927181D54002FD3EC /* File.swift in Sources */,
+				E471DF392727CCEE00C311DD /* Date+Extension.swift in Sources */,
 				E46B31C5271812D3002FD3EC /* String+Extension.swift in Sources */,
 				E43EC91A27180BFA00A12393 /* ViewController.swift in Sources */,
 				E46B31C727181907002FD3EC /* Version.swift in Sources */,
+				E4E894792726E025005AB869 /* UITextField+Extension.swift in Sources */,
+				E4E8947D2726E30F005AB869 /* UIEdgeInsets+App.swift in Sources */,
 				E46B31D1271954E1002FD3EC /* CoreGraphics+Extension.swift in Sources */,
 				E46B31D327195AAC002FD3EC /* NotificationCenter+Extension.swift in Sources */,
 				E43EC91627180BFA00A12393 /* AppDelegate.swift in Sources */,
 				E46B31CF27193AD3002FD3EC /* Array+Extension.swift in Sources */,
+				E4E8947B2726E0C6005AB869 /* UITextView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
