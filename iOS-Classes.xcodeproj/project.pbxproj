@@ -15,6 +15,8 @@
 		E40F56D7299CBDC800578EC1 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40F56D6299CBDC800578EC1 /* Launch.storyboard */; };
 		E40F56D9299CC00C00578EC1 /* BootstrapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56D8299CC00C00578EC1 /* BootstrapViewController.swift */; };
 		E40F56DC299CC51900578EC1 /* AppDelegate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56DB299CC51900578EC1 /* AppDelegate+Extensions.swift */; };
+		E40F56DF299CD0D500578EC1 /* Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56DE299CD0D500578EC1 /* Configure.swift */; };
+		E40F56E1299CD0FD00578EC1 /* AppConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56E0299CD0FD00578EC1 /* AppConfigure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E40F56D6299CBDC800578EC1 /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		E40F56D8299CC00C00578EC1 /* BootstrapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootstrapViewController.swift; sourceTree = "<group>"; };
 		E40F56DB299CC51900578EC1 /* AppDelegate+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Extensions.swift"; sourceTree = "<group>"; };
+		E40F56DE299CD0D500578EC1 /* Configure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configure.swift; sourceTree = "<group>"; };
+		E40F56E0299CD0FD00578EC1 /* AppConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfigure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 			children = (
 				E40F56CE299CBD5700578EC1 /* Applications */,
 				E40F56DA299CC51900578EC1 /* Extensions */,
+				E40F56DD299CD0D500578EC1 /* Utilities */,
 				E40F56CC299CBD5700578EC1 /* ViewControllers */,
 			);
 			path = Sources;
@@ -93,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				E40F56CF299CBD5700578EC1 /* AppDelegate.swift */,
+				E40F56E0299CD0FD00578EC1 /* AppConfigure.swift */,
 			);
 			path = Applications;
 			sourceTree = "<group>";
@@ -119,6 +125,14 @@
 				E40F56DB299CC51900578EC1 /* AppDelegate+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E40F56DD299CD0D500578EC1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E40F56DE299CD0D500578EC1 /* Configure.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,8 +209,10 @@
 			files = (
 				E40F56D9299CC00C00578EC1 /* BootstrapViewController.swift in Sources */,
 				E40F56D2299CBD5700578EC1 /* AppDelegate.swift in Sources */,
+				E40F56E1299CD0FD00578EC1 /* AppConfigure.swift in Sources */,
 				E40F56DC299CC51900578EC1 /* AppDelegate+Extensions.swift in Sources */,
 				E40F56D5299CBDB200578EC1 /* LaunchViewController.swift in Sources */,
+				E40F56DF299CD0D500578EC1 /* Configure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
