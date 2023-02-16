@@ -23,6 +23,7 @@
 		E40F56EA299CE42F00578EC1 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56E9299CE42F00578EC1 /* UIViewController+Extensions.swift */; };
 		E40F56EC299CE4DF00578EC1 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56EB299CE4DF00578EC1 /* NavigationController.swift */; };
 		E40F56EF299E0CA300578EC1 /* AlertPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56EE299E0CA200578EC1 /* AlertPresentable.swift */; };
+		E40F56F1299E0E9300578EC1 /* ActionSheetPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56F0299E0E9300578EC1 /* ActionSheetPresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		E40F56E9299CE42F00578EC1 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		E40F56EB299CE4DF00578EC1 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		E40F56EE299E0CA200578EC1 /* AlertPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPresentable.swift; sourceTree = "<group>"; };
+		E40F56F0299E0E9300578EC1 /* ActionSheetPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheetPresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				E40F56EE299E0CA200578EC1 /* AlertPresentable.swift */,
+				E40F56F0299E0E9300578EC1 /* ActionSheetPresentable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				E40F56EC299CE4DF00578EC1 /* NavigationController.swift in Sources */,
 				E40F56D9299CC00C00578EC1 /* BootstrapViewController.swift in Sources */,
 				E40F56D2299CBD5700578EC1 /* AppDelegate.swift in Sources */,
+				E40F56F1299E0E9300578EC1 /* ActionSheetPresentable.swift in Sources */,
 				E40F56EA299CE42F00578EC1 /* UIViewController+Extensions.swift in Sources */,
 				E40F56E8299CDEC300578EC1 /* Date+Extensions.swift in Sources */,
 				E40F56E1299CD0FD00578EC1 /* AppConfigure.swift in Sources */,
