@@ -24,7 +24,7 @@
 		E40F56EC299CE4DF00578EC1 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56EB299CE4DF00578EC1 /* NavigationController.swift */; };
 		E40F56EF299E0CA300578EC1 /* AlertPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56EE299E0CA200578EC1 /* AlertPresentable.swift */; };
 		E40F56F1299E0E9300578EC1 /* ActionSheetPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56F0299E0E9300578EC1 /* ActionSheetPresentable.swift */; };
-		E40F56F3299E105600578EC1 /* ProgressResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56F2299E105600578EC1 /* ProgressResult.swift */; };
+		E40F56F3299E105600578EC1 /* ResultWithProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56F2299E105600578EC1 /* ResultWithProgress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +47,7 @@
 		E40F56EB299CE4DF00578EC1 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		E40F56EE299E0CA200578EC1 /* AlertPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPresentable.swift; sourceTree = "<group>"; };
 		E40F56F0299E0E9300578EC1 /* ActionSheetPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheetPresentable.swift; sourceTree = "<group>"; };
-		E40F56F2299E105600578EC1 /* ProgressResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressResult.swift; sourceTree = "<group>"; };
+		E40F56F2299E105600578EC1 /* ResultWithProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultWithProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				E40F56DE299CD0D500578EC1 /* Configure.swift */,
-				E40F56F2299E105600578EC1 /* ProgressResult.swift */,
+				E40F56F2299E105600578EC1 /* ResultWithProgress.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -254,7 +254,7 @@
 				E40F56EA299CE42F00578EC1 /* UIViewController+Extensions.swift in Sources */,
 				E40F56E8299CDEC300578EC1 /* Date+Extensions.swift in Sources */,
 				E40F56E1299CD0FD00578EC1 /* AppConfigure.swift in Sources */,
-				E40F56F3299E105600578EC1 /* ProgressResult.swift in Sources */,
+				E40F56F3299E105600578EC1 /* ResultWithProgress.swift in Sources */,
 				E40F56DC299CC51900578EC1 /* AppDelegate+Extensions.swift in Sources */,
 				E40F56E4299CD32C00578EC1 /* Version.swift in Sources */,
 				E40F56E6299CDE2000578EC1 /* File.swift in Sources */,
