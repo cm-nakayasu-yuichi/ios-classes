@@ -6,6 +6,12 @@ class BootstrapViewController: UIViewController {
     private typealias Row = (String, (UIViewController) -> ())
     
     private let sections: [Section] = [
+        ("画面動作確認", [
+            ("フォント一覧", { this in
+                let vc = FontListViewController.instantiate().withinNavigation()
+                AppDelegate.shared.change(to: vc)
+            }),
+        ]),
         ("テスト", [
             ("テスト", { this in
                 print(1)
