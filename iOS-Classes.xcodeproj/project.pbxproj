@@ -33,6 +33,7 @@
 		E40F5700299E307300578EC1 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56FF299E307300578EC1 /* UITableView+Extensions.swift */; };
 		E479DBE929A31DD200A732DA /* Number+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBE829A31DD200A732DA /* Number+Extensions.swift */; };
 		E479DBEB29A31F1F00A732DA /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBEA29A31F1F00A732DA /* Array+Extensions.swift */; };
+		E479DBED29A3A6E100A732DA /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBEC29A3A6E000A732DA /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		E40F56FF299E307300578EC1 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
 		E479DBE829A31DD200A732DA /* Number+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Number+Extensions.swift"; sourceTree = "<group>"; };
 		E479DBEA29A31F1F00A732DA /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		E479DBEC29A3A6E000A732DA /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				E40F56DB299CC51900578EC1 /* AppDelegate+Extensions.swift */,
+				E479DBEC29A3A6E000A732DA /* String+Extensions.swift */,
 				E479DBEA29A31F1F00A732DA /* Array+Extensions.swift */,
 				E479DBE829A31DD200A732DA /* Number+Extensions.swift */,
 				E40F56E7299CDEC300578EC1 /* Date+Extensions.swift */,
@@ -292,6 +295,7 @@
 				E40F56E1299CD0FD00578EC1 /* AppConfigure.swift in Sources */,
 				E479DBEB29A31F1F00A732DA /* Array+Extensions.swift in Sources */,
 				E40F56FA299E11F900578EC1 /* FontListViewController.swift in Sources */,
+				E479DBED29A3A6E100A732DA /* String+Extensions.swift in Sources */,
 				E40F56F3299E105600578EC1 /* ResultWithProgress.swift in Sources */,
 				E40F56DC299CC51900578EC1 /* AppDelegate+Extensions.swift in Sources */,
 				E40F56E4299CD32C00578EC1 /* Version.swift in Sources */,
