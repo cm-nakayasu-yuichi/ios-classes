@@ -14,8 +14,11 @@ class BootstrapViewController: UIViewController {
         ]),
         ("テスト", [
             ("テスト", { this in
-                print("あいうえおかきくけこ".substring(from: 1, length: 0))
-                print(1657.string.padding(length: 6))
+                UIApplication.didBecomeActiveNotification.post()
+                
+                UIApplication.didBecomeActiveNotification.observe { _ in
+                     print("!")
+                }
             }),
         ]),
     ]
