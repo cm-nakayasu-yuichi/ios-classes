@@ -14,7 +14,7 @@ class BootstrapViewController: UIViewController {
         ]),
         ("テスト", [
             ("テスト", { this in
-                print(1)
+                print(321000.japanese)
             }),
         ]),
     ]

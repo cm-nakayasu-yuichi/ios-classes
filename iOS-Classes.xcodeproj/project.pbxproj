@@ -31,6 +31,7 @@
 		E40F56FD299E11F900578EC1 /* FontList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40F56F8299E11F900578EC1 /* FontList.storyboard */; };
 		E40F56FE299E11F900578EC1 /* FontListFamilyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56F9299E11F900578EC1 /* FontListFamilyCell.swift */; };
 		E40F5700299E307300578EC1 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56FF299E307300578EC1 /* UITableView+Extensions.swift */; };
+		E479DBE929A31DD200A732DA /* Number+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBE829A31DD200A732DA /* Number+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		E40F56F8299E11F900578EC1 /* FontList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FontList.storyboard; sourceTree = "<group>"; };
 		E40F56F9299E11F900578EC1 /* FontListFamilyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontListFamilyCell.swift; sourceTree = "<group>"; };
 		E40F56FF299E307300578EC1 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		E479DBE829A31DD200A732DA /* Number+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Number+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				E40F56DB299CC51900578EC1 /* AppDelegate+Extensions.swift */,
+				E479DBE829A31DD200A732DA /* Number+Extensions.swift */,
 				E40F56E7299CDEC300578EC1 /* Date+Extensions.swift */,
 				E40F56E9299CE42F00578EC1 /* UIViewController+Extensions.swift */,
 				E40F56FF299E307300578EC1 /* UITableView+Extensions.swift */,
@@ -276,6 +279,7 @@
 			files = (
 				E40F56EC299CE4DF00578EC1 /* NavigationController.swift in Sources */,
 				E40F56D9299CC00C00578EC1 /* BootstrapViewController.swift in Sources */,
+				E479DBE929A31DD200A732DA /* Number+Extensions.swift in Sources */,
 				E40F56D2299CBD5700578EC1 /* AppDelegate.swift in Sources */,
 				E40F56FC299E11F900578EC1 /* FontListPresenter.swift in Sources */,
 				E40F56FB299E11F900578EC1 /* FontListFontCell.swift in Sources */,
