@@ -14,7 +14,10 @@ class BootstrapViewController: UIViewController {
         ]),
         ("テスト", [
             ("テスト", { this in
-                print(321000.japanese)
+                var o = [0,1,4,6,8,1,0,4,6,3,2,8,0,3,2,0,0,4]
+                (0...o.count + 5).forEach { i in
+                    print(o[safe: i])
+                }
             }),
         ]),
     ]
