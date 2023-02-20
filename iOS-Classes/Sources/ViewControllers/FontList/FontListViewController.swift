@@ -42,8 +42,16 @@ extension FontListViewController: UITableViewDelegate, UITableViewDataSource {
         let identifier = indexPath.row == 0 ? "family" : "font"
         let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath)
         
-        let family = presenter.fonts[indexPath.section].familyName
-        let font = presenter.fonts[indexPath.section].fontNames[indexPath.row]
+        cell.bind(as: FontListFontCell.self) { fontCell in
+            let fontName = presenter.fonts[indexPath.section].fontNames[indexPath.row - 1]
+            fontCell.name = fontName
+            fontCell.font = UIFont(name: fontName, size: 24.0)
+        }
+        
+        cell.bind(as: FontListFamilyCell.self) { familyCell in
+            let familyName = presenter.fonts[indexPath.section].familyName
+            familyCell.name = familyName
+        }
         
         return cell
     }

@@ -34,6 +34,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="9kp-b2-3Se" firstAttribute="leading" secondItem="cdN-Wn-AZ0" secondAttribute="leading" constant="20" id="1p1-sI-st3"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="9kp-b2-3Se" secondAttribute="bottom" constant="12" id="eIM-lc-1SD"/>
@@ -41,6 +42,10 @@
                                                 <constraint firstItem="9kp-b2-3Se" firstAttribute="top" secondItem="cdN-Wn-AZ0" secondAttribute="top" constant="12" id="s29-bs-QTJ"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="9kp-b2-3Se" id="Px7-Yd-v9V"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="font" id="hBr-UN-e8G" customClass="FontListFontCell" customModule="iOS_Classes" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="96" width="414" height="53.5"/>
@@ -63,6 +68,9 @@
                                                 <constraint firstItem="jKx-SP-Tkp" firstAttribute="leading" secondItem="WLv-JZ-1Ke" secondAttribute="leading" constant="40" id="sjC-4U-78O"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="jKx-SP-Tkp" id="fyA-Mf-0OV"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>

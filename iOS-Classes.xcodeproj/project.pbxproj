@@ -30,6 +30,7 @@
 		E40F56FC299E11F900578EC1 /* FontListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56F7299E11F900578EC1 /* FontListPresenter.swift */; };
 		E40F56FD299E11F900578EC1 /* FontList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40F56F8299E11F900578EC1 /* FontList.storyboard */; };
 		E40F56FE299E11F900578EC1 /* FontListFamilyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56F9299E11F900578EC1 /* FontListFamilyCell.swift */; };
+		E40F5700299E307300578EC1 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56FF299E307300578EC1 /* UITableView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		E40F56F7299E11F900578EC1 /* FontListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontListPresenter.swift; sourceTree = "<group>"; };
 		E40F56F8299E11F900578EC1 /* FontList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FontList.storyboard; sourceTree = "<group>"; };
 		E40F56F9299E11F900578EC1 /* FontListFamilyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontListFamilyCell.swift; sourceTree = "<group>"; };
+		E40F56FF299E307300578EC1 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				E40F56DB299CC51900578EC1 /* AppDelegate+Extensions.swift */,
 				E40F56E7299CDEC300578EC1 /* Date+Extensions.swift */,
 				E40F56E9299CE42F00578EC1 /* UIViewController+Extensions.swift */,
+				E40F56FF299E307300578EC1 /* UITableView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				E40F56E4299CD32C00578EC1 /* Version.swift in Sources */,
 				E40F56E6299CDE2000578EC1 /* File.swift in Sources */,
 				E40F56D5299CBDB200578EC1 /* LaunchViewController.swift in Sources */,
+				E40F5700299E307300578EC1 /* UITableView+Extensions.swift in Sources */,
 				E40F56FE299E11F900578EC1 /* FontListFamilyCell.swift in Sources */,
 				E40F56EF299E0CA300578EC1 /* AlertPresentable.swift in Sources */,
 				E40F56DF299CD0D500578EC1 /* Configure.swift in Sources */,

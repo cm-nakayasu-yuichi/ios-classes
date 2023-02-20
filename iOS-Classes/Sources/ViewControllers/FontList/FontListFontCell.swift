@@ -9,4 +9,10 @@ class FontListFontCell: UITableViewCell {
             nameLabel.text = name
         }
     }
+    
+    var font: UIFont! {
+        didSet {
+            nameLabel.font = font
+        }
+    }
 }
