@@ -8,7 +8,8 @@ class BootstrapViewController: UIViewController {
     private let sections: [Section] = [
         ("画面動作確認", [
             ("フォント一覧", { this in
-                ThreadManager.sleepAsync(seconds: 2.5) {
+                _ = ThreadManager.timer(interval: 1.0, count: nil) { i in
+                    print(i)
                     this.push(FontListViewController.instantiate())
                 }
             }),

@@ -28,6 +28,52 @@ class ThreadManager {
         }
     }
     
+    /// タイマー処理を行う
+    ///
+    /// 繰り返し回数を指定した場合
+    /// ```
+    /// _ = ThreadManager.timer(interval: 1.0, count: 5, fired: { index in
+    ///     // 発火時処理
+    ///     // 引数(index)から繰り返し回数のインデックスを取得できる
+    /// }, finished: {
+    ///     // 終了時処理
+    /// })
+    /// ```
+    /// 繰り返し回数を指定しない場合
+    /// ```
+    /// let timer = ThreadManager.timer(interval: 1.0, count: nil) { _ in
+    ///     // 発火時処理
+    ///     // 引数は常に0で渡される
+    /// }
+    ///
+    /// // タイマーを終了させる処理を入れなければ永久にループされるので注意
+    /// timer.invalidate()
+    /// ```
+    ///
+    /// - Parameters:
+    ///   - interval: タイマーのインターバル
+    ///   - count: 繰り返す回数 (nilにした場合は永久ループするので、戻り値のtimerに対してinvalidate()を呼ぶ必要があります)
+    ///   - fired: タイマーが発火した時の処理
+    ///   - finished: 繰り返しのカウントを終えた時の処理 (count == nil の場合は呼ばれない)
+    /// - Returns: 実行開始されたタイマーオブジェクト
+    static func timer(interval: TimeInterval, count: Int?, fired: @escaping (Int) -> (), finished: (() -> ())? = nil) -> Timer {
+        var mutableCount = count
+        return Timer.scheduledTimer(withTimeInterval: interval, repeats: true) { timer in
+            let index = mutableCount == nil ? 0 : count! - mutableCount!
+            fired(index)
+            
+            if mutableCount == nil {
+                return
+            }
+            
+            mutableCount! -= 1
+            if mutableCount! <= 0 {
+                finished?()
+                timer.invalidate()
+            }
+        }
+    }
+    
     /// 非同期にスリープする
     /// - Parameters:
     ///   - interval: スリープする期間
