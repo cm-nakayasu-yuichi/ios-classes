@@ -36,6 +36,7 @@
 		E479DBED29A3A6E100A732DA /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBEC29A3A6E000A732DA /* String+Extensions.swift */; };
 		E479DBEF29A3AAD100A732DA /* CoreGraphics+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBEE29A3AAD100A732DA /* CoreGraphics+Extensions.swift */; };
 		E479DBF129A3ADC800A732DA /* Notification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBF029A3ADC800A732DA /* Notification+Extensions.swift */; };
+		E479DBF329A45EB000A732DA /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBF229A45EB000A732DA /* UIViewController+Navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		E479DBEC29A3A6E000A732DA /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		E479DBEE29A3AAD100A732DA /* CoreGraphics+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreGraphics+Extensions.swift"; sourceTree = "<group>"; };
 		E479DBF029A3ADC800A732DA /* Notification+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification+Extensions.swift"; sourceTree = "<group>"; };
+		E479DBF229A45EB000A732DA /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				E479DBE829A31DD200A732DA /* Number+Extensions.swift */,
 				E40F56E7299CDEC300578EC1 /* Date+Extensions.swift */,
 				E40F56E9299CE42F00578EC1 /* UIViewController+Extensions.swift */,
+				E479DBF229A45EB000A732DA /* UIViewController+Navigation.swift */,
 				E40F56FF299E307300578EC1 /* UITableView+Extensions.swift */,
 				E479DBF029A3ADC800A732DA /* Notification+Extensions.swift */,
 				E479DBEE29A3AAD100A732DA /* CoreGraphics+Extensions.swift */,
@@ -300,6 +303,7 @@
 				E40F56E8299CDEC300578EC1 /* Date+Extensions.swift in Sources */,
 				E40F56E1299CD0FD00578EC1 /* AppConfigure.swift in Sources */,
 				E479DBF129A3ADC800A732DA /* Notification+Extensions.swift in Sources */,
+				E479DBF329A45EB000A732DA /* UIViewController+Navigation.swift in Sources */,
 				E479DBEB29A31F1F00A732DA /* Array+Extensions.swift in Sources */,
 				E40F56FA299E11F900578EC1 /* FontListViewController.swift in Sources */,
 				E479DBED29A3A6E100A732DA /* String+Extensions.swift in Sources */,

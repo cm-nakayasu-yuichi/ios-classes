@@ -30,15 +30,6 @@ extension UIViewController {
         return instance
     }
     
-    /// 自身をルートビューコントローラとしたナビゲーションコントローラを返す
-    /// - Returns: ナビゲーションコントローラ
-    func withinNavigation() -> UIViewController {
-        if let navi = navigationController {
-            return navi
-        }        
-        return NavigationController(rootViewController: self)
-    }
-    
     /// 自身のコントローラ名を返す
     static var controllerName: String {
         return String(describing: self)
