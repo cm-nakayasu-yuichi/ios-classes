@@ -37,6 +37,7 @@
 		E479DBEF29A3AAD100A732DA /* CoreGraphics+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBEE29A3AAD100A732DA /* CoreGraphics+Extensions.swift */; };
 		E479DBF129A3ADC800A732DA /* Notification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBF029A3ADC800A732DA /* Notification+Extensions.swift */; };
 		E479DBF329A45EB000A732DA /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBF229A45EB000A732DA /* UIViewController+Navigation.swift */; };
+		E479DBF529A4604200A732DA /* ThreadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBF429A4604200A732DA /* ThreadManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		E479DBEE29A3AAD100A732DA /* CoreGraphics+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreGraphics+Extensions.swift"; sourceTree = "<group>"; };
 		E479DBF029A3ADC800A732DA /* Notification+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification+Extensions.swift"; sourceTree = "<group>"; };
 		E479DBF229A45EB000A732DA /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		E479DBF429A4604200A732DA /* ThreadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				E40F56DE299CD0D500578EC1 /* Configure.swift */,
+				E479DBF429A4604200A732DA /* ThreadManager.swift */,
 				E40F56F2299E105600578EC1 /* ResultWithProgress.swift */,
 			);
 			path = Utilities;
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E40F56EC299CE4DF00578EC1 /* NavigationController.swift in Sources */,
+				E479DBF529A4604200A732DA /* ThreadManager.swift in Sources */,
 				E40F56D9299CC00C00578EC1 /* BootstrapViewController.swift in Sources */,
 				E479DBE929A31DD200A732DA /* Number+Extensions.swift in Sources */,
 				E40F56D2299CBD5700578EC1 /* AppDelegate.swift in Sources */,

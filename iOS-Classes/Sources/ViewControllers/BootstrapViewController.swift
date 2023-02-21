@@ -8,11 +8,9 @@ class BootstrapViewController: UIViewController {
     private let sections: [Section] = [
         ("画面動作確認", [
             ("フォント一覧", { this in
-//                let vc = FontListViewController.instantiate().withinNavigation()
-//                AppDelegate.shared.change(to: vc)
-                
-                let vcs = (0...10).map { _ in FontListViewController.instantiate() }
-                this.push(vcs)
+                ThreadManager.sleepAsync(seconds: 2.5) {
+                    this.push(FontListViewController.instantiate())
+                }
             }),
         ]),
         ("テスト", [
