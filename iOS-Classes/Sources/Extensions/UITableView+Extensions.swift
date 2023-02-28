@@ -22,3 +22,17 @@ extension UITableViewCell {
         }
     }
 }
+
+extension IndexPath {
+    
+    /// イニシャライザ
+    ///
+    /// このイニシャライザはinit(row:section:)のラッパーです
+    ///
+    /// - Parameters:
+    ///   - row: 行
+    ///   - section: セクション
+    init(_ row: Int, in section: Int = 0) {
+        self.init(row: row, section: section)
+    }
+}
