@@ -30,6 +30,40 @@ extension Array {
         return nil
     }
     
+    /// 先頭のインデックス
+    ///
+    /// 空配列の場合は-1が返る
+    var firstIndex: Int {
+        return !isEmpty ? 0 : -1
+    }
+    
+    /// 末尾のインデックス
+    ///
+    /// 空配列の場合は-1が返る
+    var lastIndex: Int {
+        return !isEmpty ? count - 1 : -1
+    }
+    
+    /// 渡したインデックスが先頭のインデックスかどうかを返す
+    ///
+    /// 配列が空でなく、0が渡されればtrueになります。
+    ///
+    /// - Parameter index: インデックス
+    /// - Returns: 先頭のインデックスかどうか
+    func isFirst(at index: Int) -> Bool {
+        return !isEmpty && index == 0
+    }
+    
+    /// 渡したインデックスが末尾のインデックスかどうかを返す
+    ///
+    /// 配列が空の場合はfalseが返ります。
+    ///
+    /// - Parameter index: インデックス
+    /// - Returns: 末尾のインデックスかどうか
+    func isLast(at index: Int) -> Bool {
+        return !isEmpty && index == count - 1
+    }
+    
     /// 指定した要素数の空配列を生成して返す
     ///
     ///  ```
