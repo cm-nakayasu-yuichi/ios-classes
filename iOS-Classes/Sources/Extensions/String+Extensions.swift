@@ -43,6 +43,18 @@ extension String {
     }
 }
 
+// MARK: - 文字列分割
+extension String {
+    
+    /// 1文字ずつ分割した文字列配列を取得する
+    /// - Returns: 1文字ずつ分割した文字列配列
+    func divided() -> [String] {
+        return reduce(into: [String]()) { result, element in
+            result.append(String(element))
+        }
+    }
+}
+
 // MARK: - 空文字列対応
 extension String {
     
