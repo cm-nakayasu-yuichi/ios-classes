@@ -32,6 +32,7 @@
 		E40F56FE299E11F900578EC1 /* FontListFamilyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56F9299E11F900578EC1 /* FontListFamilyCell.swift */; };
 		E40F5700299E307300578EC1 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F56FF299E307300578EC1 /* UITableView+Extensions.swift */; };
 		E42C96B429AD9D7500ED227D /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42C96B329AD9D7500ED227D /* UIView+Extensions.swift */; };
+		E42C96B629ADC43B00ED227D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42C96B529ADC43B00ED227D /* UIColor+Extension.swift */; };
 		E479DBE929A31DD200A732DA /* Number+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBE829A31DD200A732DA /* Number+Extensions.swift */; };
 		E479DBEB29A31F1F00A732DA /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBEA29A31F1F00A732DA /* Array+Extensions.swift */; };
 		E479DBED29A3A6E100A732DA /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBEC29A3A6E000A732DA /* String+Extensions.swift */; };
@@ -69,6 +70,7 @@
 		E40F56F9299E11F900578EC1 /* FontListFamilyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontListFamilyCell.swift; sourceTree = "<group>"; };
 		E40F56FF299E307300578EC1 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
 		E42C96B329AD9D7500ED227D /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		E42C96B529ADC43B00ED227D /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		E479DBE829A31DD200A732DA /* Number+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Number+Extensions.swift"; sourceTree = "<group>"; };
 		E479DBEA29A31F1F00A732DA /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		E479DBEC29A3A6E000A732DA /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				E479DBEA29A31F1F00A732DA /* Array+Extensions.swift */,
 				E479DBE829A31DD200A732DA /* Number+Extensions.swift */,
 				E40F56E7299CDEC300578EC1 /* Date+Extensions.swift */,
+				E42C96B529ADC43B00ED227D /* UIColor+Extension.swift */,
 				E40F56E9299CE42F00578EC1 /* UIViewController+Extensions.swift */,
 				E479DBF229A45EB000A732DA /* UIViewController+Navigation.swift */,
 				E40F56FF299E307300578EC1 /* UITableView+Extensions.swift */,
@@ -305,6 +308,7 @@
 				E40F56D2299CBD5700578EC1 /* AppDelegate.swift in Sources */,
 				E40F56FC299E11F900578EC1 /* FontListPresenter.swift in Sources */,
 				E40F56FB299E11F900578EC1 /* FontListFontCell.swift in Sources */,
+				E42C96B629ADC43B00ED227D /* UIColor+Extension.swift in Sources */,
 				E40F56F1299E0E9300578EC1 /* ActionSheetPresentable.swift in Sources */,
 				E40F56EA299CE42F00578EC1 /* UIViewController+Extensions.swift in Sources */,
 				E40F56E8299CDEC300578EC1 /* Date+Extensions.swift in Sources */,
