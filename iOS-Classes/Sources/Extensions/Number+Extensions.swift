@@ -29,6 +29,21 @@ extension Int {
         return formatter.string(from: NSNumber(value: self)) ?? ""
     }
     
+    /// 指定した範囲の中から乱数を取得する
+    /// 
+    /// 最小値は0を下回ってはいけません。また、最小値は最大値を上回ってはいけません
+    /// - Parameters:
+    ///   - min: 最小値
+    ///   - max: 最大値
+    /// - Returns: 乱数
+    static func random(min: Int, max: Int) -> Int {
+        let minn = min < 0 ? 0 : min
+        let maxn = max + 1
+        let x = UInt32(maxn < minn ? 0 : maxn - minn)
+        let r = Int(arc4random_uniform(x))
+        return minn + r
+    }
+    
     /// 文字列に変換した値
     var string: String {
         return "\(self)"
