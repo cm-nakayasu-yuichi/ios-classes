@@ -6,8 +6,29 @@ class Dialog: NSObject, UIViewControllerTransitioningDelegate {
     
     private let behavior: DialogBehavior
     
+    /// ダイアログを表示する
+    /// - Parameters:
+    ///   - presentedViewController: 表示するビューコントローラ
+    ///   - presentingViewController: 表示元のビューコントローラ
+    ///   - behavior: 挙動
+    ///   - completion: 表示完了時の処理
     class func show(_ presentedViewController: UIViewController, from presentingViewController: UIViewController, behavior: DialogBehavior.Name, completion: (() -> Void)? = nil) {
-        let instance = Dialog(behavior.instantiate())
+        show(
+            presentedViewController,
+            from: presentingViewController,
+            behavior: behavior.instantiate(),
+            completion: completion
+        )
+    }
+    
+    /// ダイアログを表示する
+    /// - Parameters:
+    ///   - presentedViewController: 表示するビューコントローラ
+    ///   - presentingViewController: 表示元のビューコントローラ
+    ///   - behavior: 挙動
+    ///   - completion: 表示完了時の処理
+    class func show(_ presentedViewController: UIViewController, from presentingViewController: UIViewController, behavior: DialogBehavior, completion: (() -> Void)? = nil) {
+        let instance = Dialog(behavior)
         Dialog.instances.append(instance)
         
         presentedViewController.modalPresentationStyle = .custom
