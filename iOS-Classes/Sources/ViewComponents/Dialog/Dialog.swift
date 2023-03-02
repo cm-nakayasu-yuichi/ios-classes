@@ -16,6 +16,26 @@ class Dialog: NSObject, UIViewControllerTransitioningDelegate {
         presentingViewController.present(presentedViewController, animated: true, completion: completion)
     }
     
+    /// 画面サイズから指定の大きさだけ小さいサイズを計算して返す
+    ///
+    /// ```
+    /// let size = Dialog.sizeForScreen(
+    ///   horizontalInset: 20,
+    ///   verticalInset: 50
+    /// )
+    /// Dialog.show(someViewController, from: self, behavior: .none(size: size))
+    /// ```
+    /// - Parameters:
+    ///   - horizontalInset: 水平方向のインセット値
+    ///   - verticalInset: 垂直方向のインセット値
+    /// - Returns: サイズ
+    class func sizeForScreen(horizontalInset: CGFloat, verticalInset: CGFloat) -> CGSize {
+        var size = UIScreen.main.bounds.size
+        size.width -= horizontalInset * 2
+        size.height -= verticalInset * 2
+        return size
+    }
+    
     private init(_ behavior: DialogBehavior) {
         self.behavior = behavior
     }
