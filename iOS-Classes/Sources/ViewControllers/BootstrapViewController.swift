@@ -16,11 +16,7 @@ class BootstrapViewController: UIViewController {
         ]),
         ("テスト", [
             ("テスト", { this in
-                UIApplication.didBecomeActiveNotification.post()
-                
-                UIApplication.didBecomeActiveNotification.observe { _ in
-                     print("!")
-                }
+                Dialog.show(FontListViewController.instantiate(), from: this, behavior: .none)
             }),
         ]),
     ]
