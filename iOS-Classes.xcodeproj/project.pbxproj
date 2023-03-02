@@ -42,6 +42,16 @@
 		E479DBF129A3ADC800A732DA /* Notification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBF029A3ADC800A732DA /* Notification+Extensions.swift */; };
 		E479DBF329A45EB000A732DA /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBF229A45EB000A732DA /* UIViewController+Navigation.swift */; };
 		E479DBF529A4604200A732DA /* ThreadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E479DBF429A4604200A732DA /* ThreadManager.swift */; };
+		E4E8961629B05BC40093FAF6 /* DialogRightDrawBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8960D29B05BC40093FAF6 /* DialogRightDrawBehavior.swift */; };
+		E4E8961729B05BC40093FAF6 /* DialogNoneBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8960E29B05BC40093FAF6 /* DialogNoneBehavior.swift */; };
+		E4E8961829B05BC40093FAF6 /* DialogLeftDrawBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8960F29B05BC40093FAF6 /* DialogLeftDrawBehavior.swift */; };
+		E4E8961929B05BC40093FAF6 /* DialogTopDrawBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8961029B05BC40093FAF6 /* DialogTopDrawBehavior.swift */; };
+		E4E8961A29B05BC40093FAF6 /* DialogZoomBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8961129B05BC40093FAF6 /* DialogZoomBehavior.swift */; };
+		E4E8961B29B05BC40093FAF6 /* DialogBottomDrawBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8961229B05BC40093FAF6 /* DialogBottomDrawBehavior.swift */; };
+		E4E8961C29B05BC40093FAF6 /* DialogRiseupBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8961329B05BC40093FAF6 /* DialogRiseupBehavior.swift */; };
+		E4E8961D29B05BC40093FAF6 /* DialogFadeBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8961429B05BC40093FAF6 /* DialogFadeBehavior.swift */; };
+		E4E8961E29B05BC40093FAF6 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8961529B05BC40093FAF6 /* Dialog.swift */; };
+		E4E8962029B05CBF0093FAF6 /* DialogBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8961F29B05CBF0093FAF6 /* DialogBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +92,16 @@
 		E479DBF029A3ADC800A732DA /* Notification+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification+Extensions.swift"; sourceTree = "<group>"; };
 		E479DBF229A45EB000A732DA /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 		E479DBF429A4604200A732DA /* ThreadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadManager.swift; sourceTree = "<group>"; };
+		E4E8960D29B05BC40093FAF6 /* DialogRightDrawBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogRightDrawBehavior.swift; sourceTree = "<group>"; };
+		E4E8960E29B05BC40093FAF6 /* DialogNoneBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogNoneBehavior.swift; sourceTree = "<group>"; };
+		E4E8960F29B05BC40093FAF6 /* DialogLeftDrawBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogLeftDrawBehavior.swift; sourceTree = "<group>"; };
+		E4E8961029B05BC40093FAF6 /* DialogTopDrawBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogTopDrawBehavior.swift; sourceTree = "<group>"; };
+		E4E8961129B05BC40093FAF6 /* DialogZoomBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogZoomBehavior.swift; sourceTree = "<group>"; };
+		E4E8961229B05BC40093FAF6 /* DialogBottomDrawBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogBottomDrawBehavior.swift; sourceTree = "<group>"; };
+		E4E8961329B05BC40093FAF6 /* DialogRiseupBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogRiseupBehavior.swift; sourceTree = "<group>"; };
+		E4E8961429B05BC40093FAF6 /* DialogFadeBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogFadeBehavior.swift; sourceTree = "<group>"; };
+		E4E8961529B05BC40093FAF6 /* Dialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
+		E4E8961F29B05CBF0093FAF6 /* DialogBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +152,7 @@
 				E40F56ED299E0CA200578EC1 /* Protocols */,
 				E40F56E2299CD32C00578EC1 /* Entities */,
 				E40F56DD299CD0D500578EC1 /* Utilities */,
+				E4E8960B29B05BC40093FAF6 /* ViewComponents */,
 				E40F56CC299CBD5700578EC1 /* ViewControllers */,
 			);
 			path = Sources;
@@ -234,6 +255,31 @@
 			path = FontList;
 			sourceTree = "<group>";
 		};
+		E4E8960B29B05BC40093FAF6 /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				E4E8960C29B05BC40093FAF6 /* Dialog */,
+			);
+			path = ViewComponents;
+			sourceTree = "<group>";
+		};
+		E4E8960C29B05BC40093FAF6 /* Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				E4E8961529B05BC40093FAF6 /* Dialog.swift */,
+				E4E8961F29B05CBF0093FAF6 /* DialogBehavior.swift */,
+				E4E8960D29B05BC40093FAF6 /* DialogRightDrawBehavior.swift */,
+				E4E8960E29B05BC40093FAF6 /* DialogNoneBehavior.swift */,
+				E4E8960F29B05BC40093FAF6 /* DialogLeftDrawBehavior.swift */,
+				E4E8961029B05BC40093FAF6 /* DialogTopDrawBehavior.swift */,
+				E4E8961129B05BC40093FAF6 /* DialogZoomBehavior.swift */,
+				E4E8961229B05BC40093FAF6 /* DialogBottomDrawBehavior.swift */,
+				E4E8961329B05BC40093FAF6 /* DialogRiseupBehavior.swift */,
+				E4E8961429B05BC40093FAF6 /* DialogFadeBehavior.swift */,
+			);
+			path = Dialog;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -310,7 +356,9 @@
 				E40F56EC299CE4DF00578EC1 /* NavigationController.swift in Sources */,
 				E479DBF529A4604200A732DA /* ThreadManager.swift in Sources */,
 				E40F56D9299CC00C00578EC1 /* BootstrapViewController.swift in Sources */,
+				E4E8961729B05BC40093FAF6 /* DialogNoneBehavior.swift in Sources */,
 				E479DBE929A31DD200A732DA /* Number+Extensions.swift in Sources */,
+				E4E8961D29B05BC40093FAF6 /* DialogFadeBehavior.swift in Sources */,
 				E40F56D2299CBD5700578EC1 /* AppDelegate.swift in Sources */,
 				E40F56FC299E11F900578EC1 /* FontListPresenter.swift in Sources */,
 				E40F56FB299E11F900578EC1 /* FontListFontCell.swift in Sources */,
@@ -318,6 +366,7 @@
 				E40F56F1299E0E9300578EC1 /* ActionSheetPresentable.swift in Sources */,
 				E40F56EA299CE42F00578EC1 /* UIViewController+Extensions.swift in Sources */,
 				E40F56E8299CDEC300578EC1 /* Date+Extensions.swift in Sources */,
+				E4E8961B29B05BC40093FAF6 /* DialogBottomDrawBehavior.swift in Sources */,
 				E40F56E1299CD0FD00578EC1 /* AppConfigure.swift in Sources */,
 				E479DBF129A3ADC800A732DA /* Notification+Extensions.swift in Sources */,
 				E42C96B429AD9D7500ED227D /* UIView+Extensions.swift in Sources */,
@@ -326,6 +375,8 @@
 				E40F56FA299E11F900578EC1 /* FontListViewController.swift in Sources */,
 				E479DBED29A3A6E100A732DA /* String+Extensions.swift in Sources */,
 				E42C96B829ADE28900ED227D /* UITextControls+Extensions.swift in Sources */,
+				E4E8961629B05BC40093FAF6 /* DialogRightDrawBehavior.swift in Sources */,
+				E4E8961829B05BC40093FAF6 /* DialogLeftDrawBehavior.swift in Sources */,
 				E479DBEF29A3AAD100A732DA /* CoreGraphics+Extensions.swift in Sources */,
 				E40F56F3299E105600578EC1 /* ResultWithProgress.swift in Sources */,
 				E40F56DC299CC51900578EC1 /* AppDelegate+Extensions.swift in Sources */,
@@ -333,8 +384,13 @@
 				E40F56E6299CDE2000578EC1 /* File.swift in Sources */,
 				E40F56D5299CBDB200578EC1 /* LaunchViewController.swift in Sources */,
 				E40F5700299E307300578EC1 /* UITableView+Extensions.swift in Sources */,
+				E4E8962029B05CBF0093FAF6 /* DialogBehavior.swift in Sources */,
+				E4E8961929B05BC40093FAF6 /* DialogTopDrawBehavior.swift in Sources */,
+				E4E8961A29B05BC40093FAF6 /* DialogZoomBehavior.swift in Sources */,
 				E40F56FE299E11F900578EC1 /* FontListFamilyCell.swift in Sources */,
+				E4E8961C29B05BC40093FAF6 /* DialogRiseupBehavior.swift in Sources */,
 				E42C96BA29ADF8C700ED227D /* UIImage+Extensions.swift in Sources */,
+				E4E8961E29B05BC40093FAF6 /* Dialog.swift in Sources */,
 				E40F56EF299E0CA300578EC1 /* AlertPresentable.swift in Sources */,
 				E40F56DF299CD0D500578EC1 /* Configure.swift in Sources */,
 			);
