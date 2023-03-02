@@ -52,9 +52,7 @@ private class DialogPresentationController: UIPresentationController {
                 return .zero
         }
         
-        let isNavigator = presentedViewController is UINavigationController || presentedViewController is UITabBarController
-        
-        if behavior.fixedSize == nil && isNavigator {
+        if behavior.fixedSize == nil {
             let width = UIScreen.main.bounds.width - 60
             let height = width * 0.8
             behavior.fixedSize = CGSize(width: width, height: height)
