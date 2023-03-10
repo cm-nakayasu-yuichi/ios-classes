@@ -6,17 +6,9 @@ class BootstrapViewController: UIViewController {
     private typealias Row = (String, (UIViewController) -> ())
     
     private let sections: [Section] = [
-        ("画面動作確認", [
-            ("フォント一覧", { this in
-                _ = ThreadManager.timer(interval: 1.0, count: nil) { i in
-                    print(i)
-                    this.push(FontListViewController.instantiate())
-                }
-            }),
-        ]),
         ("テスト", [
             ("テスト", { this in
-                Dialog.show(FontListViewController.instantiate(), from: this, behavior: .none)
+                
             }),
         ]),
     ]
